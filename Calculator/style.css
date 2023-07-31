@@ -1,0 +1,48 @@
+.container{
+    height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+    height: 280px;
+    width: 280PX;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+  }
+
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+
+.input{
+    
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border: 40px 5px;
+  cursor: pointer;
+  
+  font-size: 20px;
+}
+
+
+.switch{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
